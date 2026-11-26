@@ -102,23 +102,9 @@ dialog ol{padding-left:20px;margin:8px 0 12px;font-size:14px;display:flex;flex-d
 dialog input{width:100%;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:8px;padding:8px 10px;font:inherit;font-size:14px;margin:6px 0 10px}
 .reco.connect{border-color:var(--accent);background:var(--accent-soft)}
 .reco.connect p{color:var(--ink)}
+.linkbtn{border:0;background:none;padding:0;color:var(--accent);text-decoration:underline;font:inherit;cursor:pointer}
 .err-text{color:var(--warn);font-size:13px;min-height:1em;margin:0 0 8px}
 </style></head><body>
 <div id="app"></div>
-<dialog id="settings" aria-labelledby="tok-title"><form id="tok-form" method="dialog">
-<h2 id="tok-title">Сохранение плана в GitHub</h2>
-<p class="note" id="tok-state"></p>
-<p class="note">Чтобы страница могла записывать план в репозиторий <b id="tok-repo"></b>, нужен токен GitHub. Он хранится только в этом браузере и никуда, кроме GitHub, не отправляется.</p>
-<ol>
-<li>Откройте <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">создание fine-grained токена</a>.</li>
-<li>Repository access: Only select repositories, выберите datafest-2026.</li>
-<li>Permissions, Contents: Read and write. Срок действия хватит на неделю.</li>
-<li>Скопируйте токен и вставьте ниже.</li>
-</ol>
-<label for="tok" class="note">Токен</label>
-<input id="tok" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
-<p class="err-text" id="tok-err" role="alert"></p>
-<div class="row"><button class="btn" type="submit">Сохранить токен</button><button class="btn ghost" type="button" id="tok-cancel">Отмена</button><span class="spacer"></span><button class="btn ghost" type="button" id="tok-del" hidden>Удалить токен</button></div>
-</form></dialog>
-<script src="app.js?v=2"></script>
+<script src="app.js?v=3"></script>
 </body></html>
