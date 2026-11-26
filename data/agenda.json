@@ -1,0 +1,1435 @@
+{
+  "festival": "DataFest Tbilisi 2026",
+  "edition": 10,
+  "dates": [
+    "2026-11-26",
+    "2026-11-28"
+  ],
+  "venue": "Pullman Tbilisi Axis Towers, 37m Ilia Chavchavadze Ave",
+  "timezone": "Asia/Tbilisi",
+  "source": "https://www.datafest.ge/agenda/",
+  "source_checked": "2026-11-25",
+  "tracks": {
+    "T": "Технологии",
+    "B": "Бизнес",
+    "S": "Общество",
+    "D": "Дизайн и датавиз"
+  },
+  "recommendation_levels": {
+    "top": "Обязательно",
+    "good": "Стоит зайти",
+    "int": "Вне работы"
+  },
+  "breaks": {
+    "26": [
+      {
+        "start": "10:00",
+        "label": "Регистрация и кофе, до 11:00"
+      },
+      {
+        "start": "11:00",
+        "label": "Открытие фестиваля, Stages 1 & 2, до 11:30"
+      },
+      {
+        "start": "12:30",
+        "label": "Перерыв, до 13:00"
+      },
+      {
+        "start": "14:30",
+        "label": "Обед и нетворкинг, до 15:30"
+      }
+    ],
+    "27": [
+      {
+        "start": "10:00",
+        "label": "Регистрация и кофе, до 10:30"
+      },
+      {
+        "start": "14:00",
+        "label": "Обед и нетворкинг, до 15:00"
+      }
+    ],
+    "28": [
+      {
+        "start": "10:00",
+        "label": "Регистрация и кофе, до 11:00"
+      },
+      {
+        "start": "14:30",
+        "label": "Обед и нетворкинг, до 15:30"
+      }
+    ]
+  },
+  "sessions": [
+    {
+      "id": 3,
+      "day": 26,
+      "start": "11:30",
+      "end": "11:50",
+      "room": "Stages 1 & 2",
+      "format": "Talk",
+      "tracks": [
+        "S"
+      ],
+      "title": "Keeping humans in control of AI: Big Tech, geopolitics and human oversight",
+      "speakers": "Pim Haselager · Radboud University",
+      "summary_ru": "Открывающий доклад: реально ли сохранить человеческий контроль над ИИ при влиянии бигтеха и геополитики; EU AI Act."
+    },
+    {
+      "id": 4,
+      "day": 26,
+      "start": "11:50",
+      "end": "12:10",
+      "room": "Stages 1 & 2",
+      "format": "Talk",
+      "tracks": [
+        "T"
+      ],
+      "title": "Who owns your agent? Technology ownership in the AI era",
+      "speakers": "Davide Eynard · Mozilla.ai",
+      "summary_ru": "Кому принадлежит агент, который работает с вашими данными и действует от вашего имени; open-source альтернатива закрытым платформам.",
+      "rec": "good",
+      "why": "Полезная рамка для выбора платформы под корпоративных агентов: зависимость от вендора против своих моделей.",
+      "route": true
+    },
+    {
+      "id": 5,
+      "day": 26,
+      "start": "12:10",
+      "end": "12:30",
+      "room": "Stages 1 & 2",
+      "format": "Talk",
+      "tracks": [
+        "S"
+      ],
+      "title": "Can Europe build AI on its own terms?",
+      "speakers": "Saskia Lensink · TNO",
+      "summary_ru": "Суверенный ИИ в Европе: инвестиции в данные, вычисления и собственные модели."
+    },
+    {
+      "id": 7,
+      "day": 26,
+      "start": "13:00",
+      "end": "13:45",
+      "room": "Experience Room",
+      "format": "Panel",
+      "tracks": [
+        "T"
+      ],
+      "title": "Is digital security real in the age of AI?",
+      "speakers": "Samvel Martirosyan · CyberHUB; George Lubaretsi · Fakta AI; мод. Nastasia Arabuli · Radio Liberty",
+      "summary_ru": "Дебаты: можно ли ещё защититься, когда ИИ удешевляет фишинг и клонирование голоса."
+    },
+    {
+      "id": 8,
+      "day": 26,
+      "start": "13:00",
+      "end": "14:00",
+      "room": "Meeting Room 1",
+      "format": "Panel",
+      "tracks": [
+        "B"
+      ],
+      "title": "Transformation Under Pressure: How Businesses Adapt in the Age of AI and Disruption",
+      "speakers": "Natia Kaldani · Loialte Strategy",
+      "summary_ru": "Панель о том, как компании пересобирают бизнес-модели и операционку под ИИ."
+    },
+    {
+      "id": 9,
+      "day": 26,
+      "start": "13:00",
+      "end": "14:30",
+      "room": "Meeting Room 2",
+      "format": "Interactive",
+      "tracks": [
+        "S"
+      ],
+      "title": "Invite-only round table: AI in journalism",
+      "speakers": "n-ost",
+      "summary_ru": "Закрытый круглый стол для журналистов и редакторов об ИИ в редакциях.",
+      "registration": "https://forms.gle/vb1YgnpsZKnbEv2SA",
+      "invite_only": true
+    },
+    {
+      "id": 10,
+      "day": 26,
+      "start": "13:00",
+      "end": "13:30",
+      "room": "Meeting Room 4",
+      "format": "Talk",
+      "tracks": [
+        "B",
+        "T"
+      ],
+      "title": "Stop over-polishing, start delivering your AI solution: Why good-enough wins",
+      "speakers": "Mariam Janjghava · Bank of Georgia",
+      "summary_ru": "Два кейса Bank of Georgia (онлайн-кредитование бизнеса и GenAI-контроль качества контакт-центра): как строго определить «достаточно хорошо» и выпускать модели вовремя.",
+      "rec": "good",
+      "why": "Кейсы крупного банка о приоритизации: применимо к бэклогу аналитического отдела. Пересекается на 10 минут с докладом EPAM в 13:20."
+    },
+    {
+      "id": 11,
+      "day": 26,
+      "start": "13:00",
+      "end": "13:20",
+      "room": "Stages 1 & 2",
+      "format": "Talk",
+      "tracks": [
+        "T",
+        "B"
+      ],
+      "title": "Winner's mentality",
+      "speakers": "Rati Kunchulia · DataMind",
+      "summary_ru": "Описания в программе нет. Выступает сооснователь DataMind, главного технологического партнёра."
+    },
+    {
+      "id": 12,
+      "day": 26,
+      "start": "13:20",
+      "end": "13:40",
+      "room": "Stages 1 & 2",
+      "format": "Talk",
+      "tracks": [
+        "B",
+        "T"
+      ],
+      "title": "The pipeline is green. The AI is wrong.",
+      "speakers": "Zaur Tskhvaradze · EPAM",
+      "summary_ru": "Пайплайн отработал, проверки прошли, а ассистент уверенно отвечает неверно. Живой разбор: почему обычные проверки это пропускают и как написать бизнес-правило валидации, которое ловит ошибку.",
+      "rec": "top",
+      "why": "Прямо про качество данных под ИИ-ассистентом поверх хранилища: тот самый класс ошибок, который возникает у self-service бота.",
+      "route": true
+    },
+    {
+      "id": 13,
+      "day": 26,
+      "start": "13:30",
+      "end": "14:00",
+      "room": "Meeting Room 4",
+      "format": "Talk",
+      "tracks": [
+        "B"
+      ],
+      "title": "Stop digitizing the chaos",
+      "speakers": "Giorgi Matcharashvili · BTU",
+      "summary_ru": "Почему цифровая трансформация буксует из-за людей и культуры, а не технологий."
+    },
+    {
+      "id": 14,
+      "day": 26,
+      "start": "13:40",
+      "end": "14:00",
+      "room": "Stages 1 & 2",
+      "format": "Talk",
+      "tracks": [
+        "T"
+      ],
+      "title": "Unboxing AI: Open Source is No Joke",
+      "speakers": "Alexsai Srourali · SocialLab",
+      "summary_ru": "Open source как критическая инфраструктура и роль ИИ в её развитии."
+    },
+    {
+      "id": 15,
+      "day": 26,
+      "start": "13:45",
+      "end": "14:30",
+      "room": "Experience Room",
+      "format": "Panel",
+      "tracks": [
+        "T"
+      ],
+      "title": "Will AI kill scientific research?",
+      "speakers": "Levan Tsinadze · TSU; Malkhaz Suladze; Shota Natenadze · Provectus",
+      "summary_ru": "Дебаты: ускорит ли ИИ науку или подорвёт её; кто будет делать исследовательскую работу."
+    },
+    {
+      "id": 16,
+      "day": 26,
+      "start": "14:00",
+      "end": "14:30",
+      "room": "Meeting Room 4",
+      "format": "Talk",
+      "tracks": [
+        "S",
+        "T"
+      ],
+      "title": "Can we ask without asking? More than twenty years of fieldwork and the rise of synthetic respondents",
+      "speakers": "Mariam Pachuashvili · ACT Research",
+      "summary_ru": "20 лет полевых опросов в Грузии и следующий шаг: синтетические респонденты, сгенерированные ИИ. Где это работает и чем приходится платить.",
+      "rec": "good",
+      "why": "Синтетические респонденты уже предлагают для потребительских исследований; хороший повод понять границы метода до того, как его принесут в компанию.",
+      "route": true
+    },
+    {
+      "id": 17,
+      "day": 26,
+      "start": "14:00",
+      "end": "14:30",
+      "room": "Stages 1 & 2",
+      "format": "Talk",
+      "tracks": [
+        "S",
+        "T"
+      ],
+      "title": "What Georgia wrote, sang, and says: Building AI for Georgia-specific challenges",
+      "speakers": "Shota Tsiskaridze · Ilia State University",
+      "summary_ru": "Три проекта: распознавание старинных грузинских рукописей, оцифровка народной музыки, лёгкая модель распознавания грузинской речи."
+    },
+    {
+      "id": 19,
+      "day": 26,
+      "start": "15:30",
+      "end": "17:00",
+      "room": "Experience Room",
+      "format": "Interactive",
+      "tracks": [
+        "T",
+        "B",
+        "S"
+      ],
+      "title": "Change my mind session",
+      "speakers": "Открытый формат",
+      "summary_ru": "Спикер выдвигает смелый тезис, зал пытается его переубедить. Быстрые дебаты про данные и ИИ."
+    },
+    {
+      "id": 20,
+      "day": 26,
+      "start": "15:30",
+      "end": "17:00",
+      "room": "Meeting Room 1",
+      "format": "Workshop",
+      "tracks": [
+        "S"
+      ],
+      "title": "Must be human (not a woman). Must work like a machine. AI, gender and the pursuit of the perfect worker",
+      "speakers": "Venero Melua",
+      "summary_ru": "Воркшоп об ИИ в найме и управлении персоналом и о гендерных перекосах, которые он закрепляет."
+    },
+    {
+      "id": 21,
+      "day": 26,
+      "start": "15:30",
+      "end": "17:00",
+      "room": "Meeting Room 2",
+      "format": "Interactive",
+      "tracks": [
+        "S"
+      ],
+      "title": "Invite-only round table: AI Adoptions in Schools",
+      "speakers": "SocialLab",
+      "summary_ru": "Закрытый круглый стол об ИИ в школах и вузах.",
+      "registration": "https://events.sociallab.ai/ai-adoptions-in-schools",
+      "invite_only": true
+    },
+    {
+      "id": 22,
+      "day": 26,
+      "start": "15:30",
+      "end": "16:30",
+      "room": "Meeting Room 3",
+      "format": "Workshop",
+      "tracks": [
+        "D"
+      ],
+      "title": "From idea to visual story",
+      "speakers": "Davit Jijavadze",
+      "summary_ru": "Практикум по визуальному сторителлингу с ИИ: от концепции и стиля до анимации и монтажа."
+    },
+    {
+      "id": 23,
+      "day": 26,
+      "start": "15:30",
+      "end": "16:30",
+      "room": "Meeting Room 4",
+      "format": "Workshop",
+      "tracks": [
+        "B"
+      ],
+      "title": "2 decades of working with and investing into startups: two things I got wrong, two things I'd bet on",
+      "speakers": "Carsten Kølbek · Rainmaking",
+      "summary_ru": "Инвестор о своих ошибках за два десятилетия и ставках на следующее."
+    },
+    {
+      "id": 24,
+      "day": 26,
+      "start": "15:30",
+      "end": "15:50",
+      "room": "Stages 1 & 2",
+      "format": "Talk",
+      "tracks": [
+        "S"
+      ],
+      "title": "Ungovernable algorithms: In the search for AI accountability",
+      "speakers": "Naiara Bellio · Pulitzer Center",
+      "summary_ru": "Как госорганы внедряют непрозрачные алгоритмы для социальных решений и как журналисты добиваются подотчётности."
+    },
+    {
+      "id": 25,
+      "day": 26,
+      "start": "15:50",
+      "end": "16:10",
+      "room": "Stages 1 & 2",
+      "format": "Talk",
+      "tracks": [
+        "S"
+      ],
+      "title": "The data centre fight: Resisting AI infrastructures",
+      "speakers": "Naomi Appelman · University College Dublin",
+      "summary_ru": "Почему местные сообщества сопротивляются строительству дата-центров: вода, энергия, земля, шум."
+    },
+    {
+      "id": 26,
+      "day": 26,
+      "start": "16:10",
+      "end": "17:00",
+      "room": "Stages 1 & 2",
+      "format": "Panel",
+      "tracks": [
+        "S",
+        "T"
+      ],
+      "title": "Who owns our AI?",
+      "speakers": "Saskia Lensink; Davide Eynard; Surabhi Srivastava; мод. Naiara Bellio",
+      "summary_ru": "Панель о концентрации контроля над ИИ и ответах на неё: государственные модели, компактный open source, протесты против дата-центров.",
+      "rec": "int",
+      "why": "Политэкономия ИИ: кто контролирует инфраструктуру и что этому противопоставляют."
+    },
+    {
+      "id": 29,
+      "day": 26,
+      "start": "16:45",
+      "end": "17:45",
+      "room": "Meeting Room 3",
+      "format": "Talk",
+      "tracks": [
+        "S"
+      ],
+      "title": "Integrating AI skills into the job market in Georgia",
+      "speakers": "Tsotne Zhghenti · BTU",
+      "summary_ru": "В каких вакансиях Грузии уже требуют навыки ИИ и успевают ли университеты."
+    },
+    {
+      "id": 30,
+      "day": 26,
+      "start": "16:45",
+      "end": "17:45",
+      "room": "Meeting Room 4",
+      "format": "Workshop",
+      "tracks": [
+        "T"
+      ],
+      "title": "Not every agent decision deserves an LLM",
+      "speakers": "Giorgi Duchidze · Impel",
+      "summary_ru": "В агентных системах LLM вызывают на каждой мелкой развилке: эскалировать ли тикет, какой инструмент взять. Это медленно, дорого и нестабильно. Воркшоп о том, чем заменять такие вызовы в продакшене.",
+      "rec": "top",
+      "why": "Инженерная практика для собственных агентных пайплайнов: где LLM нужна, а где достаточно правила или лёгкой модели. Влияет на стоимость и надёжность.",
+      "route": true
+    },
+    {
+      "id": 34,
+      "day": 26,
+      "start": "17:30",
+      "end": "19:00",
+      "room": "Experience Room",
+      "format": "Interactive",
+      "tracks": [
+        "T",
+        "B",
+        "S",
+        "D"
+      ],
+      "title": "Open mic",
+      "speakers": "Открытый формат",
+      "summary_ru": "Свободный микрофон: проекты, идеи, поиск соавторов. Для выступления нужна регистрация.",
+      "registration": "https://forms.gle/n2PsrgijRK3cGKLcA"
+    },
+    {
+      "id": 35,
+      "day": 26,
+      "start": "17:30",
+      "end": "19:00",
+      "room": "Meeting Room 1",
+      "format": "Workshop",
+      "tracks": [
+        "T",
+        "B"
+      ],
+      "title": "Build $1M data ecosystem in 35 minutes",
+      "speakers": "Rati Kunchulia · DataMind",
+      "summary_ru": "Описания в программе нет. Судя по названию и спикеру, демонстрация сборки дата-платформы на DataMind OS.",
+      "rec": "good",
+      "why": "Вендорская демонстрация, но по теме: как быстро собирают хранилище и BI с помощью ИИ. Полезно для сравнения со своей инфраструктурой."
+    },
+    {
+      "id": 36,
+      "day": 26,
+      "start": "17:30",
+      "end": "18:30",
+      "room": "Meeting Room 2",
+      "format": "Workshop",
+      "tracks": [
+        "S",
+        "T"
+      ],
+      "title": "Would you trust this dashboard with a child's future?",
+      "speakers": "Irakli Matcharashvili · GAU",
+      "summary_ru": "На опыте школьного округа Денвера: как неполные или вводящие в заблуждение данные на дашборде влияют на финансирование и закрытие школ. Интерактив с ролями.",
+      "rec": "good",
+      "why": "Про ответственность BI-разработчика за решения, принятые по дашборду. Хороший материал для разговора с командой."
+    },
+    {
+      "id": 37,
+      "day": 26,
+      "start": "17:30",
+      "end": "17:50",
+      "room": "Stages 1 & 2",
+      "format": "Talk",
+      "tracks": [
+        "D",
+        "B"
+      ],
+      "title": "Connecting the dots: Navigating data, AI, and big decisions with a multidisciplinary mindset",
+      "speakers": "Shazeera Ahmad Zawawi · Tableau Ambassador",
+      "summary_ru": "ИИ автоматизирует рутинную отчётность, и роль аналитика сдвигается от написания кода к интерпретации и работе со стейкхолдерами.",
+      "rec": "good",
+      "why": "Тема развития аналитиков в эпоху ИИ. Пересекается с воркшопом про агентов (до 17:45); у спикера есть ещё воркшоп в субботу."
+    },
+    {
+      "id": 40,
+      "day": 26,
+      "start": "17:50",
+      "end": "18:10",
+      "room": "Stages 1 & 2",
+      "format": "Talk",
+      "tracks": [
+        "D"
+      ],
+      "title": "Beyond reports, towards experiences",
+      "speakers": "Prasanta Kumar Dutta · Reuters",
+      "summary_ru": "Графический журналист Reuters о том, как проектировать опыт читателя: от одного графика к срочной новости до годового расследования.",
+      "rec": "good",
+      "why": "Взгляд сильной датавиз-редакции. Пересекается с воркшопом про тестирование БД; в пятницу у него же практикум Chart Doctor."
+    },
+    {
+      "id": 41,
+      "day": 26,
+      "start": "18:00",
+      "end": "19:00",
+      "room": "Meeting Room 3",
+      "format": "Workshop",
+      "tracks": [
+        "T"
+      ],
+      "title": "Write one test, break a thousand ways: How we test a distributed database",
+      "speakers": "David Mnatobishvili · GeoSTQB",
+      "summary_ru": "Практикум на примере ClickHouse: пишем тест один раз и запускаем на Python в тысячах вариаций, с конкурентными операциями и разными конфигурациями.",
+      "rec": "top",
+      "why": "ClickHouse плюс Python: и знакомство с колоночной базой изнутри, и приёмы автотестирования, которые переносятся на SQL Server.",
+      "route": true
+    },
+    {
+      "id": 42,
+      "day": 26,
+      "start": "18:00",
+      "end": "19:00",
+      "room": "Meeting Room 4",
+      "format": "Workshop",
+      "tracks": [
+        "S"
+      ],
+      "title": "Who protects our rights when AI makes decisions? Fundamental rights impact assessments under the EU AI Act",
+      "speakers": "Eka Mamrikishvili · Free University of Tbilisi",
+      "summary_ru": "EU AI Act, риск-ориентированный подход и оценка влияния на фундаментальные права (статья 27)."
+    },
+    {
+      "id": 43,
+      "day": 26,
+      "start": "18:10",
+      "end": "18:30",
+      "room": "Stages 1 & 2",
+      "format": "Talk",
+      "tracks": [
+        "D"
+      ],
+      "title": "Data leaves the screen: From early exhibitions to AI-aided experiences",
+      "speakers": "Sophie Sparkes",
+      "summary_ru": "Данные вне экрана: выставки, инсталляции, интерактив и что меняет ИИ."
+    },
+    {
+      "id": 44,
+      "day": 26,
+      "start": "18:30",
+      "end": "19:00",
+      "room": "Stages 1 & 2",
+      "format": "Talk",
+      "tracks": [
+        "D",
+        "S"
+      ],
+      "title": "From P(doom) to AI magic: What media narratives on AI tell us about this moment",
+      "speakers": "Surabhi Srivastava · RNW Media",
+      "summary_ru": "Кто и зачем формирует медийные нарративы об ИИ: от спасения до катастрофы."
+    },
+    {
+      "id": 46,
+      "day": 27,
+      "start": "10:30",
+      "end": "12:00",
+      "room": "Meeting Room 1",
+      "format": "Workshop",
+      "tracks": [
+        "T"
+      ],
+      "title": "AI-driven software development: Separating signal from noise",
+      "speakers": "Shota Natenadze · Provectus",
+      "summary_ru": "Где ИИ реально помогает в цикле разработки, а где пока шум; ограничения и инженерные практики на пути от демо к надёжному продукту.",
+      "rec": "good",
+      "why": "Трезвый взгляд техлида на ИИ-разработку. Альтернатива утренним докладам на Stage 1; пересекается с докладом про observability."
+    },
+    {
+      "id": 47,
+      "day": 27,
+      "start": "10:30",
+      "end": "12:00",
+      "room": "Meeting Room 2",
+      "format": "Lab",
+      "tracks": [
+        "T"
+      ],
+      "title": "What happens to the data you paste into AI: How to reduce the legal and contractual risk (Lab, Part I)",
+      "speakers": "Christopher Anich · AnichLabs",
+      "summary_ru": "Трёхчасовая лаборатория без кода: классифицируете данные своей организации и уходите с черновиком правил работы с ИИ-инструментами.",
+      "rec": "good",
+      "why": "На выходе готовый черновик политики для отдела: какие данные можно отправлять в ИИ. Занимает всё утро (части I и II)."
+    },
+    {
+      "id": 48,
+      "day": 27,
+      "start": "10:30",
+      "end": "12:00",
+      "room": "Meeting Room 3",
+      "format": "Workshop",
+      "tracks": [
+        "S"
+      ],
+      "title": "How to govern sensitive data for media and CSOs",
+      "speakers": "Samvel Martirosyan · CyberHUB",
+      "summary_ru": "Практика защиты чувствительных данных для редакций и НКО."
+    },
+    {
+      "id": 49,
+      "day": 27,
+      "start": "10:30",
+      "end": "11:30",
+      "room": "Meeting Room 4",
+      "format": "Workshop",
+      "tracks": [
+        "S"
+      ],
+      "title": "Mapping the resistance against data centres",
+      "speakers": "Naomi Appelman · University College Dublin",
+      "summary_ru": "Воркшоп: стратегии сопротивления расширению дата-центров в разных странах."
+    },
+    {
+      "id": 50,
+      "day": 27,
+      "start": "10:30",
+      "end": "10:50",
+      "room": "Stage 1",
+      "format": "Talk",
+      "tracks": [
+        "B"
+      ],
+      "title": "5 data-driven decisions every business should make before launching",
+      "speakers": "Gvantsa Kvintradze · IBCCS TAX Georgia",
+      "summary_ru": "Пять решений перед запуском бизнеса: рынок, структура, налоги, операционная готовность."
+    },
+    {
+      "id": 51,
+      "day": 27,
+      "start": "10:30",
+      "end": "10:50",
+      "room": "Stage 2",
+      "format": "Talk",
+      "tracks": [
+        "D"
+      ],
+      "title": "From beautiful images to emotion: Storytelling with AI",
+      "speakers": "Davit Jijavadze",
+      "summary_ru": "Как превратить ИИ-картинки в историю, вызывающую эмоцию."
+    },
+    {
+      "id": 52,
+      "day": 27,
+      "start": "10:50",
+      "end": "11:10",
+      "room": "Stage 1",
+      "format": "Talk",
+      "tracks": [
+        "T",
+        "B"
+      ],
+      "title": "Data is the product: How data engineers can build their own SaaS in the age of AI",
+      "speakers": "Giorgi Itonishvili · Hermy Analytics",
+      "summary_ru": "Чистые и свежие датасеты как продукт: автор собирает данные и продаёт их через API стартапам, которые строят ИИ-агентов.",
+      "rec": "good",
+      "why": "Данные как продукт для агентов: смежно с идеей хранилища, удобного для ИИ."
+    },
+    {
+      "id": 53,
+      "day": 27,
+      "start": "10:50",
+      "end": "11:10",
+      "room": "Stage 2",
+      "format": "Talk",
+      "tracks": [
+        "S",
+        "D"
+      ],
+      "title": "The transformative condition of object and human",
+      "speakers": "Anoush Arshakyan · Fab Lab Armenia",
+      "summary_ru": "О двойной природе вещей, физической и цифровой."
+    },
+    {
+      "id": 54,
+      "day": 27,
+      "start": "11:10",
+      "end": "11:30",
+      "room": "Stage 1",
+      "format": "Talk",
+      "tracks": [
+        "B"
+      ],
+      "title": "Beyond connectivity: how AI and digital ecosystems are transforming customer experiences",
+      "speakers": "Temo Macharashvili · Silknet",
+      "summary_ru": "Как телеком-оператор выходит за рамки связи: ИИ, данные и цифровые сервисы."
+    },
+    {
+      "id": 55,
+      "day": 27,
+      "start": "11:10",
+      "end": "12:00",
+      "room": "Stage 2",
+      "format": "Panel",
+      "tracks": [
+        "D"
+      ],
+      "title": "From data to experience: how creativity is changing",
+      "speakers": "Prasanta Kumar Dutta · Reuters; Sophie Sparkes; мод. Shazeera Ahmad Zawawi",
+      "summary_ru": "Панель трёх практиков датавиза о том, как меняется творческая работа с данными."
+    },
+    {
+      "id": 57,
+      "day": 27,
+      "start": "11:30",
+      "end": "12:00",
+      "room": "Stage 1",
+      "format": "Talk",
+      "tracks": [
+        "T"
+      ],
+      "title": "What your AI did last night: Observability for AI",
+      "speakers": "Giorgi Chogovadze · Lineate",
+      "summary_ru": "К каким данным обращался ИИ, что сказал пользователям, соблюдал ли политики, принёс ли пользу. Как мониторить потоки данных и диалоги, измерять поведение модели и бизнес-эффект.",
+      "rec": "top",
+      "why": "Наблюдаемость нужна любому боту в продакшене: без неё нельзя ни доверять ответам, ни доказать ценность руководству.",
+      "route": true
+    },
+    {
+      "id": 58,
+      "day": 27,
+      "start": "11:45",
+      "end": "12:15",
+      "room": "Meeting Room 4",
+      "format": "Talk",
+      "tracks": [
+        "S"
+      ],
+      "title": "Small data, big impact: Using data and AI to strengthen democracy and human rights",
+      "speakers": "Juan Pablo Marín Díaz · Datasketch",
+      "summary_ru": "Десять лет дата-проектов в Латинской Америке: прозрачность выборов, госрасходы, поиск пропавших, гражданские сообщения.",
+      "rec": "int",
+      "why": "Данные о выборах и госрасходах силами маленьких команд. Начало пересекается с докладом про observability."
+    },
+    {
+      "id": 64,
+      "day": 27,
+      "start": "12:15",
+      "end": "13:15",
+      "room": "Meeting Room 3",
+      "format": "Workshop",
+      "tracks": [
+        "T"
+      ],
+      "title": "From tensors to GPU kernels: Why the same model can produce different results",
+      "speakers": "Irakli Salia · Hugging Face",
+      "summary_ru": "Что происходит между ML-кодом и результатом: тензоры, GPU-ядра, арифметика с плавающей точкой и воспроизводимость."
+    },
+    {
+      "id": 65,
+      "day": 27,
+      "start": "12:15",
+      "end": "12:45",
+      "room": "Meeting Room 4",
+      "format": "Talk",
+      "tracks": [
+        "S"
+      ],
+      "title": "Openness as a design principle for building financial crime data that anyone can check",
+      "speakers": "Eric Barrett · OpenSanctions",
+      "summary_ru": "Как OpenSanctions строит базу санкций и финансовых преступлений, где каждое значение прослеживается до источника, включая обработку ИИ.",
+      "rec": "int",
+      "why": "Санкционные данные и одновременно образцовый пример lineage: происхождение каждого значения."
+    },
+    {
+      "id": 66,
+      "day": 27,
+      "start": "12:30",
+      "end": "14:00",
+      "room": "Experience Room",
+      "format": "Workshop",
+      "tracks": [
+        "T"
+      ],
+      "title": "Exploring the Future of Robotics & AI",
+      "speakers": "Avtandil Mghebrishvili · Georgian Robotics Association",
+      "summary_ru": "Интерактив о современной робототехнике.",
+      "language": "ka"
+    },
+    {
+      "id": 67,
+      "day": 27,
+      "start": "12:30",
+      "end": "13:15",
+      "room": "Meeting Room 1",
+      "format": "Talk",
+      "tracks": [
+        "B"
+      ],
+      "title": "Uzbekistan's rising tech market: Opportunities for Georgian AI & IT companies",
+      "speakers": "Bachana Shelia · Loialte Uzbekistan",
+      "summary_ru": "Рынок Узбекистана для грузинских ИТ-компаний."
+    },
+    {
+      "id": 68,
+      "day": 27,
+      "start": "12:30",
+      "end": "14:00",
+      "room": "Meeting Room 2",
+      "format": "Lab",
+      "tracks": [
+        "T"
+      ],
+      "title": "What happens to the data you paste into AI (Lab, Part II)",
+      "speakers": "Christopher Anich · AnichLabs",
+      "summary_ru": "Вторая часть лаборатории по правилам работы с данными в ИИ-инструментах."
+    },
+    {
+      "id": 69,
+      "day": 27,
+      "start": "12:30",
+      "end": "13:00",
+      "room": "Stage 1",
+      "format": "Talk",
+      "tracks": [
+        "B"
+      ],
+      "title": "Technology for business or business for technology? The role of data in digital transformation",
+      "speakers": "Ketevan Aghoshashvili · SmartCLM",
+      "summary_ru": "Как по данным находить неэффективность и скрытые издержки, особенно в документоёмких процессах."
+    },
+    {
+      "id": 70,
+      "day": 27,
+      "start": "12:30",
+      "end": "13:00",
+      "room": "Stage 2",
+      "format": "Talk",
+      "tracks": [
+        "S"
+      ],
+      "title": "When AI repeats disinformation: Testing chatbots against false narratives",
+      "speakers": "Ani Grigoryan · CivilNet Check",
+      "summary_ru": "Тест ChatGPT, Gemini, Grok и Claude на 504 ответах: как формулировка запроса заставляет бота то опровергать, то усиливать ложный нарратив.",
+      "rec": "int",
+      "why": "Дезинформация плюс методика: как построить набор тестов для оценки чат-ботов."
+    },
+    {
+      "id": 72,
+      "day": 27,
+      "start": "13:00",
+      "end": "14:00",
+      "room": "Meeting Room 4",
+      "format": "Workshop",
+      "tracks": [
+        "D"
+      ],
+      "title": "Making data human: Finding and visualizing stories in data",
+      "speakers": "Sona Gevorgyan · American University of Armenia",
+      "summary_ru": "Базовый практикум по визуальному сторителлингу: найти закономерность и людей за цифрами."
+    },
+    {
+      "id": 73,
+      "day": 27,
+      "start": "13:00",
+      "end": "13:30",
+      "room": "Stage 1",
+      "format": "Talk",
+      "tracks": [
+        "B"
+      ],
+      "title": "Beyond the balance sheet: Turning accounting data into business intelligence",
+      "speakers": "Giorgi Chugoshvili · Amadeo",
+      "summary_ru": "Как бухгалтерские данные, обычно объясняющие прошлое, превратить в аналитику для будущих решений.",
+      "rec": "good",
+      "why": "Финансовая BI на учётных данных: близко к управленческой отчётности.",
+      "route": true
+    },
+    {
+      "id": 74,
+      "day": 27,
+      "start": "13:00",
+      "end": "13:30",
+      "room": "Stage 2",
+      "format": "Talk",
+      "tracks": [
+        "S"
+      ],
+      "title": "AI in the newsroom, done right: Lessons from AINews.ge",
+      "speakers": "Natia Kuprashvili · Journalism Resource Center",
+      "summary_ru": "Как редакция AINews.ge использует ИИ и оставляет решения за людьми."
+    },
+    {
+      "id": 76,
+      "day": 27,
+      "start": "13:15",
+      "end": "14:00",
+      "room": "Meeting Room 1",
+      "format": "Talk",
+      "tracks": [
+        "B"
+      ],
+      "title": "The architecture of high-performing teams",
+      "speakers": "George Tsiramua · OptiCrew",
+      "summary_ru": "Team Reliability Engineering: структурированные данные о сотрудниках, ИИ и оптимизация для подбора состава команд и поиска пробелов в навыках.",
+      "rec": "good",
+      "why": "Для руководителя команды с матрицей компетенций: формализованный подход к составу команд. Пересекается с докладами на Stage 1."
+    },
+    {
+      "id": 77,
+      "day": 27,
+      "start": "13:30",
+      "end": "14:00",
+      "room": "Stage 1",
+      "format": "Talk",
+      "tracks": [
+        "B",
+        "T"
+      ],
+      "title": "When data meets AI: Opportunity, risk, and the future of data analysis",
+      "speakers": "Mariami Rusishvili · PowerDataChat",
+      "summary_ru": "Самый быстрый способ анализа с ИИ (вставить таблицу в публичный чат-бот) одновременно способ утечки данных компании. Что с этим делать и куда движется анализ данных.",
+      "rec": "top",
+      "why": "Будущее профессии аналитика и безопасная работа с корпоративными данными в ИИ: обе темы стоят перед отделом сейчас.",
+      "route": true
+    },
+    {
+      "id": 78,
+      "day": 27,
+      "start": "13:30",
+      "end": "14:00",
+      "room": "Stage 2",
+      "format": "Talk",
+      "tracks": [
+        "S"
+      ],
+      "title": "Who is the Big Brother watching us?",
+      "speakers": "Nastasia Arabuli · Radio Liberty",
+      "summary_ru": "Расследование о камерах Тбилиси: от закупок до судов, кто смотрит и чьё ПО распознаёт лица.",
+      "rec": "int",
+      "why": "Расследование о слежке в городе, где вы живёте. Пересекается с докладом про ИИ и анализ данных."
+    },
+    {
+      "id": 80,
+      "day": 27,
+      "start": "15:00",
+      "end": "16:30",
+      "room": "Meeting Room 1",
+      "format": "Workshop",
+      "tracks": [
+        "T"
+      ],
+      "title": "Your dashboard is lying to you: A workshop on catching hidden data errors",
+      "speakers": "Anastasia Pilpani · EPAM",
+      "summary_ru": "Как данные могут выглядеть правильными и быть неверными и почему это важнее, когда поверх работает ИИ. Без технических требований.",
+      "rec": "top",
+      "why": "Скрытые ошибки данных в BI: можно забрать упражнения для команды и для пользователей отчётов.",
+      "route": true
+    },
+    {
+      "id": 81,
+      "day": 27,
+      "start": "15:00",
+      "end": "16:30",
+      "room": "Meeting Room 2",
+      "format": "Interactive",
+      "tracks": [
+        "B"
+      ],
+      "title": "Invite-only round table: How AI, data and digital ecosystems can improve everyday customer experiences",
+      "speakers": "Silknet",
+      "summary_ru": "Закрытый круглый стол Silknet о клиентском опыте.",
+      "registration": "https://forms.gle/iLZwoVMSxtxRw9B39",
+      "invite_only": true
+    },
+    {
+      "id": 82,
+      "day": 27,
+      "start": "15:00",
+      "end": "16:00",
+      "room": "Meeting Room 3",
+      "format": "Workshop",
+      "tracks": [
+        "T"
+      ],
+      "title": "No dataset? Build one: Lessons from Georgian AI projects",
+      "speakers": "Shota Tsiskaridze · Ilia State University",
+      "summary_ru": "Как превратить задачу без датасета в обучаемую и измеримую: постановка, сбор данных, разметка, метрики."
+    },
+    {
+      "id": 83,
+      "day": 27,
+      "start": "15:00",
+      "end": "16:00",
+      "room": "Meeting Room 4",
+      "format": "Workshop",
+      "tracks": [
+        "S"
+      ],
+      "title": "Reframing media narratives on AI: A workshop in narrative literacy",
+      "speakers": "Surabhi Srivastava · RNW Media",
+      "summary_ru": "Нарративная грамотность: чьи интересы стоят за историями об ИИ в медиа."
+    },
+    {
+      "id": 84,
+      "day": 27,
+      "start": "15:00",
+      "end": "17:00",
+      "room": "Meeting Room 5",
+      "format": "Workshop",
+      "tracks": [
+        "D"
+      ],
+      "title": "Touché! The sound of touch: e-textiles workshop",
+      "speakers": "Anoush Arshakyan · Fab Lab Armenia",
+      "summary_ru": "Практикум по электронному текстилю: ткань, датчики и звук.",
+      "registration": "https://forms.gle/m78g2iwk1EPo5Yk28"
+    },
+    {
+      "id": 85,
+      "day": 27,
+      "start": "15:00",
+      "end": "16:30",
+      "room": "Stage 1",
+      "format": "Pitch",
+      "tracks": [
+        "B"
+      ],
+      "title": "Superhonest Tbilisi Vol. 1 and Launch",
+      "speakers": "Axel · FIFTY",
+      "summary_ru": "Стартапы ранней стадии питчат инвесторам и получают предельно честную обратную связь при зале.",
+      "registration": "https://forms.gle/NjthYMcjsFcbDvae9"
+    },
+    {
+      "id": 86,
+      "day": 27,
+      "start": "15:00",
+      "end": "16:00",
+      "room": "Stage 2",
+      "format": "Panel",
+      "tracks": [
+        "S"
+      ],
+      "title": "Digital transformation, AI adoption, entrepreneurship, and practical digital solutions for SMEs",
+      "speakers": "Anastasiia Kravchenko-Uhrekhelidze; Niclas Rueffer; Farida Asgarzade; Mihaela Ceban",
+      "summary_ru": "Панель о цифровизации малого и среднего бизнеса."
+    },
+    {
+      "id": 89,
+      "day": 27,
+      "start": "16:00",
+      "end": "16:30",
+      "room": "Stage 2",
+      "format": "Talk",
+      "tracks": [
+        "S"
+      ],
+      "title": "Open data for transparent and efficient governance",
+      "speakers": "Vasile Fulga · Electronic Governance Agency of Moldova",
+      "summary_ru": "Опыт Молдовы: правовая основа обмена данными между ведомствами и платформа MConnect."
+    },
+    {
+      "id": 90,
+      "day": 27,
+      "start": "16:15",
+      "end": "17:15",
+      "room": "Meeting Room 3",
+      "format": "Workshop",
+      "tracks": [
+        "D"
+      ],
+      "title": "Chart Doctor: Diagnose and treat your data visuals",
+      "speakers": "Prasanta Kumar Dutta · Reuters",
+      "summary_ru": "Сначала гештальт-принципы восприятия в применении к графикам, затем клиника: участники разбирают и лечат реальные визуализации.",
+      "rec": "top",
+      "why": "Практика от графического редактора Reuters: принципы, по которым можно ревьюить дашборды команды. Начинается за 15 минут до конца воркшопа EPAM.",
+      "route": true
+    },
+    {
+      "id": 91,
+      "day": 27,
+      "start": "16:15",
+      "end": "17:15",
+      "room": "Meeting Room 4",
+      "format": "Workshop",
+      "tracks": [
+        "T"
+      ],
+      "title": "Your first AI employee: Building a personalized social media agent",
+      "speakers": "Maria Doliashvili · Winter Comics",
+      "summary_ru": "Собираем ИИ-агента для соцсетей на LLM API: изучает ваш стиль, ищет темы, готовит посты."
+    },
+    {
+      "id": 102,
+      "day": 27,
+      "start": "17:30",
+      "end": "19:00",
+      "room": "Stages 1 & 2",
+      "format": "Closing",
+      "tracks": [],
+      "title": "Closing Session",
+      "speakers": "",
+      "summary_ru": "Панель о будущем данных и ИИ, вручение Decade Impact Awards к десятилетию фестиваля, анонс субботы."
+    },
+    {
+      "id": 104,
+      "day": 28,
+      "start": "11:00",
+      "end": "12:30",
+      "room": "Experience Room",
+      "format": "Workshop",
+      "tracks": [],
+      "title": "What you need to know about visual manipulation",
+      "speakers": "Davit Robakidze, Nino Gelashvili · Media Development Foundation",
+      "summary_ru": "Программа для старшего поколения: как распознавать визуальные манипуляции и ИИ-картинки.",
+      "language": "ka",
+      "audience": "Seniors"
+    },
+    {
+      "id": 105,
+      "day": 28,
+      "start": "11:00",
+      "end": "12:30",
+      "room": "Meeting Room 1",
+      "format": "Workshop",
+      "tracks": [
+        "D"
+      ],
+      "title": "Beyond bar charts: Rapid ideation for data visualisation",
+      "speakers": "Sophie Sparkes",
+      "summary_ru": "Ручка и бумага: быстрый метод придумывания вариантов визуализации, не привязанный к инструменту.",
+      "rec": "good",
+      "why": "Метод можно провести потом с командой как упражнение. Пересекается с воркшопом про Claude Code."
+    },
+    {
+      "id": 106,
+      "day": 28,
+      "start": "11:00",
+      "end": "12:30",
+      "room": "Meeting Room 2",
+      "format": "Workshop",
+      "tracks": [
+        "T"
+      ],
+      "title": "The Infinite Build Loop",
+      "speakers": "Tornike Gomareli · Techzy",
+      "summary_ru": "Как построить весь инженерный процесс вокруг ИИ-агентов: параллельные среды исполнения, автоматический ресёрч, развивающийся контекст проекта. На примере Claude Code и похожих инструментов.",
+      "rec": "top",
+      "why": "Чужая зрелая система работы с агентами для разработки: есть с чем сравнить собственный workflow.",
+      "route": true
+    },
+    {
+      "id": 107,
+      "day": 28,
+      "start": "11:00",
+      "end": "12:30",
+      "room": "Meeting Room 3",
+      "format": "Workshop",
+      "tracks": [],
+      "title": "Create your first game with IT Step Academy (ages 9-14)",
+      "speakers": "IT Step Academy",
+      "summary_ru": "Детская программа: первая игра.",
+      "language": "ka",
+      "audience": "Kids"
+    },
+    {
+      "id": 108,
+      "day": 28,
+      "start": "11:00",
+      "end": "12:00",
+      "room": "Meeting Room 4",
+      "format": "Workshop",
+      "tracks": [
+        "T",
+        "B"
+      ],
+      "title": "The next user of your API isn't human",
+      "speakers": "Mariam Narimanidze · Theneo",
+      "summary_ru": "Что меняется, когда API читает LLM: как писать документацию и спецификации для агентов и как MCP-серверы подключают ИИ к API.",
+      "rec": "good",
+      "why": "Про слой доступа агентов к данным через MCP. Пересекается с The Infinite Build Loop."
+    },
+    {
+      "id": 109,
+      "day": 28,
+      "start": "11:00",
+      "end": "12:30",
+      "room": "Stage 1",
+      "format": "Workshop",
+      "tracks": [],
+      "title": "SensoKit engineering workshop with Robocode (ages 7-10)",
+      "speakers": "Robocode",
+      "summary_ru": "Детская программа: датчики и электроника.",
+      "language": "ka",
+      "audience": "Kids"
+    },
+    {
+      "id": 110,
+      "day": 28,
+      "start": "11:00",
+      "end": "16:30",
+      "room": "Stage 2",
+      "format": "Hackathon",
+      "tracks": [
+        "T"
+      ],
+      "title": "DataMind Hackathon",
+      "speakers": "DataMind",
+      "summary_ru": "Однодневный индивидуальный хакатон: бизнес-бриф и куча грязных данных, нужно собрать дата-продукт, которому поверит нетехнический пользователь. 50 мест, приз 5000 долларов в ИИ-токенах. Достаточно базового SQL. Брифинг в 11:00, демо в 16:00.",
+      "rec": "good",
+      "why": "Альтернатива всей субботе: задача ровно по профилю. Занимает день целиком и требует регистрации.",
+      "registration": "https://forms.gle/riaU6g2UiKW5UPU18"
+    },
+    {
+      "id": 112,
+      "day": 28,
+      "start": "12:15",
+      "end": "13:15",
+      "room": "Meeting Room 4",
+      "format": "Workshop",
+      "tracks": [
+        "T"
+      ],
+      "title": "All tests passed. Your data is still wrong.",
+      "speakers": "Davit Tchanturia · DataArt",
+      "summary_ru": "Запись проходит все проверки на null, типы и ограничения и при этом логически невозможна. Как LLM-валидация ловит ошибки смысла, а не структуры.",
+      "rec": "good",
+      "why": "Проверка качества данных с помощью LLM: идея для DWH. Зажат между двумя главными воркшопами дня, пересекается с обоими по 15 минут."
+    },
+    {
+      "id": 118,
+      "day": 28,
+      "start": "13:00",
+      "end": "14:30",
+      "room": "Experience Room",
+      "format": "Workshop",
+      "tracks": [],
+      "title": "Staying safe in digital spaces for senior citizens",
+      "speakers": "Nino Danelia · World Vision Georgia",
+      "summary_ru": "Программа для старшего поколения: как распознавать мошеннические звонки и сообщения.",
+      "language": "ka",
+      "audience": "Seniors"
+    },
+    {
+      "id": 119,
+      "day": 28,
+      "start": "13:00",
+      "end": "14:30",
+      "room": "Meeting Room 1",
+      "format": "Workshop",
+      "tracks": [
+        "T"
+      ],
+      "title": "From prompt to proof: Build a data agent you can trust on EPAM AI DIAL",
+      "speakers": "Sofio Katamadze · EPAM",
+      "summary_ru": "Практикум: собираете агента, отвечающего на вопросы к данным на естественном языке, на open-source платформе EPAM AI DIAL. Учёт стоимости вызовов, оценка управляемого семантического слоя на новых вопросах, red-teaming с guardrail.",
+      "rec": "top",
+      "why": "Самая близкая к вашей задаче сессия фестиваля: data-агент с семантическим слоем, оценкой качества и защитой. Нужна регистрация.",
+      "route": true,
+      "registration": "https://forms.gle/A2k1MGs6dyaH6GmU7"
+    },
+    {
+      "id": 120,
+      "day": 28,
+      "start": "13:00",
+      "end": "14:30",
+      "room": "Meeting Room 2",
+      "format": "Workshop",
+      "tracks": [
+        "B"
+      ],
+      "title": "Crisis on infinite dashboards: Superpowered storytelling for broken metrics",
+      "speakers": "Shazeera Ahmad Zawawi · Tableau Ambassador",
+      "summary_ru": "Ролевая игра: команда диагностирует сломанный корпоративный дашборд, согласует конфликтующие цели отделов и пересобирает его под решения.",
+      "rec": "good",
+      "why": "Для BI-разработчиков и аналитиков, про согласование метрик между подразделениями. Пересекается с воркшопом EPAM."
+    },
+    {
+      "id": 121,
+      "day": 28,
+      "start": "13:00",
+      "end": "14:30",
+      "room": "Meeting Room 3",
+      "format": "Workshop",
+      "tracks": [],
+      "title": "2D game development with Unity and Robocode (ages 12+)",
+      "speakers": "Robocode",
+      "summary_ru": "Детская программа: 2D-игра на Unity.",
+      "language": "ka",
+      "audience": "Kids"
+    },
+    {
+      "id": 122,
+      "day": 28,
+      "start": "13:00",
+      "end": "14:30",
+      "room": "Stage 1",
+      "format": "Talk",
+      "tracks": [],
+      "title": "Statistics for kids and teens: Exploring Georgia through data",
+      "speakers": "Giorgi Kalakashvili · UNICEF",
+      "summary_ru": "Платформа Geostat и UNICEF со статистикой для детей и подростков.",
+      "audience": "Kids"
+    },
+    {
+      "id": 124,
+      "day": 28,
+      "start": "13:30",
+      "end": "14:30",
+      "room": "Meeting Room 4",
+      "format": "Workshop",
+      "tracks": [
+        "S"
+      ],
+      "title": "Who owns your brain? Neurotechnology, privacy and neurorights",
+      "speakers": "Pim Haselager · Radboud University",
+      "summary_ru": "Нейротехнологии выходят из лабораторий: нужны ли новые права для защиты ментальной приватности."
+    },
+    {
+      "id": 126,
+      "day": 28,
+      "start": "15:30",
+      "end": "16:30",
+      "room": "Experience Room",
+      "format": "Workshop",
+      "tracks": [
+        "T",
+        "S"
+      ],
+      "title": "Decoding Narrative & FIMI algorithms in real time with Palantir-Grade REDROOM",
+      "speakers": "Alexsai Srourali · SocialLab",
+      "summary_ru": "Демонстрация инструмента REDROOM: выявление скоординированных информационных кампаний и ключевых акторов с помощью ИИ.",
+      "rec": "int",
+      "why": "Анализ информационных операций. Это демонстрация продукта, заявления о нём стоит воспринимать критично."
+    },
+    {
+      "id": 127,
+      "day": 28,
+      "start": "15:30",
+      "end": "16:30",
+      "room": "Meeting Room 1",
+      "format": "Workshop",
+      "tracks": [
+        "T"
+      ],
+      "title": "Reverse engineering with AI",
+      "speakers": "Davide Eynard · Mozilla.ai",
+      "summary_ru": "Open-source ИИ для обратной разработки: как понять, как устроена программа, которую вы запускаете."
+    },
+    {
+      "id": 128,
+      "day": 28,
+      "start": "15:30",
+      "end": "17:00",
+      "room": "Meeting Room 2",
+      "format": "Workshop",
+      "tracks": [
+        "S"
+      ],
+      "title": "AI vs. AI: Can artificial intelligence detect its own manipulation?",
+      "speakers": "Tamar Chkhartishvili · Media Development Foundation",
+      "summary_ru": "Дипфейки и ИИ-контент: насколько надёжны ИИ-детекторы подделок."
+    },
+    {
+      "id": 129,
+      "day": 28,
+      "start": "15:30",
+      "end": "17:00",
+      "room": "Meeting Room 3",
+      "format": "Workshop",
+      "tracks": [],
+      "title": "Arduino workshop with Robocode (ages 11+)",
+      "speakers": "Robocode",
+      "summary_ru": "Детская программа: Arduino.",
+      "language": "ka",
+      "audience": "Kids"
+    },
+    {
+      "id": 130,
+      "day": 28,
+      "start": "15:30",
+      "end": "17:00",
+      "room": "Stage 1",
+      "format": "Workshop",
+      "tracks": [],
+      "title": "From digital drawing to animation with IT Step Academy (ages 9-14)",
+      "speakers": "IT Step Academy",
+      "summary_ru": "Детская программа: рисунок и анимация.",
+      "language": "ka",
+      "audience": "Kids"
+    },
+    {
+      "id": 134,
+      "day": 28,
+      "start": "16:45",
+      "end": "17:45",
+      "room": "Meeting Room 1",
+      "format": "Workshop",
+      "tracks": [
+        "T"
+      ],
+      "title": "Copy, corrupt, repeat: Distillation and poisoning attacks on AI agents",
+      "speakers": "Giorgi Chalagashvili · Impel",
+      "summary_ru": "Две недооценённые угрозы для продакшен-агентов: копирование возможностей агента через дистилляцию и отравление данных, на которых он улучшается.",
+      "rec": "good",
+      "why": "Модель угроз для агента, который работает с корпоративными данными и учится на диалогах.",
+      "route": true
+    },
+    {
+      "id": 135,
+      "day": 28,
+      "start": "16:45",
+      "end": "17:45",
+      "room": "Meeting Room 4",
+      "format": "Workshop",
+      "tracks": [
+        "T"
+      ],
+      "title": "Lattice-theoretic methods for inspecting sparse neural representations",
+      "speakers": "Levan Tsinadze · Tbilisi State University",
+      "summary_ru": "Теория решёток для анализа представлений разреженных автоэнкодеров и транскодеров. Самая математическая сессия программы.",
+      "rec": "int",
+      "why": "Интерпретируемость нейросетей через формальную математику; для тех, кому близка алгебра."
+    }
+  ]
+}
