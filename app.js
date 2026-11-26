@@ -136,8 +136,8 @@ function statusHtml(){
   if(s==="ok")t="GitHub: сохранено"+(sync.at?" в "+hhmm(sync.at):"");
   else if(s==="busy")t=sync.msg;
   else if(s==="err")t=sync.msg;
-  else if(s==="readonly")t="План из GitHub, только чтение";
-  else if(s==="local")t="Сохранено только в этом браузере";
+  else if(s==="readonly")t="Только чтение · подключить запись";
+  else if(s==="local")t="Только в браузере · подключить запись";
   else t="GitHub…";
   return '<button class="status '+cls+'" data-act="settings" title="Настройка сохранения в GitHub"><i aria-hidden="true"></i><span>'+esc(t)+"</span></button>";
 }
@@ -154,6 +154,7 @@ function render(){
     h+='<input class="search" id="q" type="search" placeholder="Поиск: тема, спикер, компания" value="'+esc(ui.q)+'" aria-label="Поиск по программе"></div>';
   }
   h+="</div>";
+  if(!token())h+='<section class="reco connect"><h2>Подключите сохранение в GitHub</h2><p>Сейчас план только читается из репозитория, а ваши отметки остаются в этом браузере. Чтобы они записывались в GitHub и были видны на всех устройствах, один раз вставьте токен.</p><div class="row"><button class="btn" data-act="settings">Подключить токен</button><span class="note">Займёт пару минут, инструкция внутри.</span></div></section>';
   if(ui.view==="prog"){
     h+=routeBlock();
     h+='<div class="legend"><span class="why top"><b>Обязательно</b></span><span class="why good"><b>Стоит зайти</b></span><span class="why int"><b>Вне работы</b></span><span>Остальное без пометки.</span></div>';
@@ -201,11 +202,11 @@ document.getElementById("tok-form").addEventListener("submit",function(ev){
     if(r.status===401){dErr.textContent="GitHub не принял токен. Проверьте, что скопировали его целиком.";return;}
     if(!r.ok){dErr.textContent="Токен не видит репозиторий "+CFG.repo+". В настройках токена выберите его в Repository access.";return;}
     if(r.j.permissions&&!r.j.permissions.push){dErr.textContent="У токена нет записи. Дайте ему Contents: Read and write.";return;}
-    lsSet(K.token,t);dlg.close();toast("Токен сохранён, план будет записываться в GitHub");
+    lsSet(K.token,t);dlg.close();render();toast("Токен сохранён, план будет записываться в GitHub");
     if(dirty())push();else setStatus("ok");
   },function(){dErr.textContent="Нет связи с GitHub. Попробуйте ещё раз.";});
 });
-document.getElementById("tok-del").addEventListener("click",function(){lsSet(K.token,null);dlg.close();setStatus(dirty()?"local":"readonly");toast("Токен удалён с этого устройства");});
+document.getElementById("tok-del").addEventListener("click",function(){lsSet(K.token,null);dlg.close();render();setStatus(dirty()?"local":"readonly");toast("Токен удалён с этого устройства");});
 document.getElementById("tok-cancel").addEventListener("click",function(){dlg.close();});
 
 // ---- events ----
